@@ -1,0 +1,264 @@
+<!DOCTYPE css>
+<style>
+
+label {
+	display: block;
+	letter-spacing: 2px;
+	margin-top:20px;
+}
+body {
+	display: block;
+	margin-left:20px;
+	width: 1000px;
+	float:left;
+	background: url(http://ginva.com/wp-content/uploads/2012/02/simple-wallpaper-20.jpg);
+
+
+}
+
+.box {
+  width: 200px;
+  margin-left: 170px;
+  padding: 25px;
+  border-width: 10px;
+  border-radius:10%;
+  margin-top:27px;
+	background-color:#b5b5b5;
+	font-style: oblique;
+	font-family: fantasy serif;
+	text-shadow: 2px 2px 4px #2f2f2f;
+	box-shadow: 10px 10px 5px grey;
+
+
+}
+h1 {
+	font-size: 20px; 
+
+
+}
+.inline {
+	display:inline;
+	font-size:25px;
+	margin-top:50px;
+	font-color:f5f5dc;
+}
+h3 {
+	clear:both;
+}
+
+#full {
+	 width: 1000px;
+	 height:750px;
+  margin-left:125px;
+  margin-right:50px;
+  margin-top: 100px;
+  margin-bottom:10px;
+  padding: 50px;
+  border: solid #f2f2f2 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          box-shadow: 10px 10px 5px grey;
+
+}
+
+#main{
+
+	font-size:22px;
+	float: left;
+	width: 600px;
+	height:600px;
+	border-radius:5%;
+	margin-right:100px;
+	margin-bottom: 100px;
+	font-style: oblique;
+	font-family: fantasy serif;
+	padding: 5px;
+	border-width:10px;
+	background-color:#cdcdcd;
+	-webkit-box-sizing: border-box;
+	text-shadow: 2px 2px 4px #2f2f2f;
+	box-shadow: 10px 10px 5px grey;
+}
+
+
+.sidebar {
+	
+	width: 270px;
+	height:200px;
+	margin-right:-25px;
+	margin-left:10px;
+	margin-top: -700px;
+	margin-bottom:100px;
+	padding: 5px;
+	border-width:10px;
+	background-color:#cdcdcd;
+float:right;
+border-radius:5%;
+box-shadow: 10px 10px 5px grey;
+}
+
+.bottomborder {
+	border-bottom: 5px solid black;
+}
+
+.icon {
+	height: 65px;
+	width:65px;
+	border-radius:50%;
+}
+.patrick {
+	width:250px;
+	height:250px;
+	border:black solid;
+	border-radius: 50%;
+	float:left;
+ }
+ .right {
+ 	float: right;
+ }
+ .left {
+ 	float:left;
+ }
+ 
+ .footer {
+ 	 width: 960px;
+ 	 height:20px;
+  margin-left:125px;
+  margin-right:55px;
+  margin-bottom:100px;
+  padding: 20px;
+  border-width: 10px;
+  margin-top:0px;
+  background-color:#f2f2f2;
+  clear:both;
+
+ }
+ 
+#contact {
+  width: 400px;
+  height: 490px;
+  margin-left: 70px;
+  padding: 25px;
+  border-width: 10px;
+  margin-top:27px;
+  background-color:#f2f2f2;
+   display:block;
+    letter-spacing:2px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius:10%;
+
+}
+
+input, textarea {
+    width:300px;
+    height:27px;
+	background: url(https://s-media-cache-ak0.pinimg.com/564x/77/d9/10/77d9104c78eb40121d0083cb31b9cfd3.jpg);
+    border:1px solid;
+    padding:10px;
+    margin-top:25px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    margin-bottom: 5px;
+}
+input:focus, textarea:focus {
+    border:1px solid;
+}
+textarea {
+	height:213px;
+	background: url(https://s-media-cache-ak0.pinimg.com/564x/77/d9/10/77d9104c78eb40121d0083cb31b9cfd3.jpg);
+	margin-top: 20px;
+	margin-left: 63px;
+}
+#submit {
+    width:127px;
+    height:38px;
+    background-color: #b5b5b5;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    margin-left:160px;
+}
+
+#shark {
+	height:175px;
+	width:250px;
+	border-radius: 25%;	
+	margin-bottom: 20px;
+}
+#stove {
+	height:175px;
+	width:250px;
+	border-radius: 25%;
+	float:right;
+}
+#drone {
+	height:175px;
+	width:250px;
+	border-radius: 25%;
+	float: right;
+	margin-bottom: 20px;
+}
+#jazzbar {
+	height:175px;
+	width:250px;
+	border-radius: 25%;
+	float:left;
+	margin-bottom: 20px;
+}
+#stage {
+	height:175px;
+	width:250px;
+	border-radius: 25%;
+	float:right;
+}
+#classmeet {
+	height:175px;
+	width:250px;
+	border-radius: 25%;
+	margin-bottom: 20px;
+}
+#pics {
+	width: 550px;
+	height:550px;
+	margin-right: 50px;
+	margin-left:25px;
+margin-top: 10px;
+
+}
+
+@media screen and (max-width: 980px) {
+    body, ul, p, .footer, #full, #main, .sidebar,#pics,#contact,form,label,textarea,#submit {
+    	width: 100%;
+      margin:50px;
+    	
+    }
+   
+
+   
+ }
+@media screen and (max-width: 764px) {
+        body, ul, p, .footer, #full, #main, .sidebar,#pics,#contact,form,label,textarea,#submit {
+      width: 100%;
+        margin:50px;
+      
+    }
+    
+  }
+@media screen and (max-width: 640px) {
+        body, ul, p, .footer, #full, #main, .sidebar,#pics,#contact,form,label,textarea,#submit {
+      width: 100%;
+        margin-right: 10px;
+      
+    }
+    .partrick {
+      margin-right: 80px;
+    }
+
+   
+  }
+
+</style>
